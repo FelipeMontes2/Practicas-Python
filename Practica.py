@@ -1,4 +1,4 @@
-print ("¡Hola Mundo!") 
+print ("¡Hola Mun!") 
 
-print ("Que tal")
+print ("Que ta que onda")
 input ()
