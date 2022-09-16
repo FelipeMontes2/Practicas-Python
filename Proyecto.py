@@ -8,13 +8,15 @@ while P > 0:
     nombre = input("Cual es su nombre? :")
     edad = int(input("Cual es su edad en años? :"))
     altura = float(input("Cual es su altura en metros? :"))
-    peso = float(input("Cual es su peso?"))
+    peso = float(input("Cual es su peso? :" ))
     IMC = peso/altura**2
     if(edad < 18):
         print("Es un menor de edad")
     else:
         print("Es mayor de edad")
-    print("Su IMC es :" + str(IMC))
+
+    
+    print("Su IMC es :" + str(IMC) )
 
     if IMC >=0 and IMC <= 15.99 :
         print("Esta demasiado delgado, debería de ponerse en dieta o se va a enfermar")
